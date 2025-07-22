@@ -13,7 +13,7 @@ A responsive and elegant beauty service web interface designed using pure HTML a
 
 ## 📸 Screenshot
 ![Login](login.png)
-![Home](home.png,home1.png)
+![Home](home.png)
 ![About](aboutus.png)
 ![Contact](contactus.png)
 ![Help](help.png)
