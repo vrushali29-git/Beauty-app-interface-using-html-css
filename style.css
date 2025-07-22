@@ -1,0 +1,374 @@
+* {
+    font-family: arial;
+    margin: 0;
+    border :border-box;
+
+}
+.navbar{
+    height: 85px;
+    border: 0.5px,solid,black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    width: 200px;
+    background-size:cover ;
+    padding-top: 0;
+    background-image: url('logo1.png');
+   
+}
+
+.nav{
+    display:inline-block;
+    color: brown;
+    text-decoration: none;
+    width:400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav a {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 30px;
+    font-weight: 30px;
+}
+.nav a:hover {
+    border: 2px solid brown;
+}
+
+.search {
+    width:400px;
+    height:25px;
+    display: flex;
+    
+}
+
+.search i {
+    display: flex;
+    align-items: center;
+    height:30px;
+    margin-right: 5px;
+}
+.cart {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.heart {
+    font-size: 1.3rem;
+}
+/* menu dropdown */
+.btn{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+
+.dropdown a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: rgb(242, 181, 181);
+}
+
+.menu{
+    display: inline-block;
+    position: relative;
+}
+.menu:hover .dropdown {
+    display: block;
+
+
+}
+
+.menu:hover  .btn{
+    border:1px solid black;
+}
+
+
+/* options */
+.options {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height :50px;
+
+}
+.options a {
+    padding-left:40px;
+    color: rgb(37, 32, 32);
+
+}
+
+.hero{
+    height:350px;
+    background-image: url("sale.jpg");
+    background-size: cover;
+}
+
+.select {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+}
+.box{
+    height:150px;
+    width:20%;
+    border:5px solid rgb(226, 81, 132);
+    border-radius: 20px;
+    margin :10px;
+    background-size: cover;
+    align-content: center;
+
+
+}
+
+.box p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(218, 122, 122);
+    text-shadow: -1px 1px 0 black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* companies */
+
+.company {
+    display: flex;
+    justify-content:space-evenly;
+    background-color: rgb(116, 42, 42);
+    height: 1000px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+
+
+}
+.company-img {
+    height:300px;
+    width:48%;
+    border-radius :20px;
+    border:1px,solid,black;
+    margin-top: 10px;
+    background-size: cover;
+    align-content: center;
+}
+
+/* footer */
+.foot-panel {
+    background-color: #e6cdef;
+    margin-top: 20px;
+    color: rgb(4, 4, 4);
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul {
+    margin-top :30px; 
+
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:#000000;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+
+ul p {
+    font-size: 1rem;
+    color: rgb(3, 6, 107);
+}
+
+.foot-panel2 {
+    background-color:#df6040 ;
+    border-top: 0.5px solid white;
+    height: 90px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.log{
+    background-image: url("logo1.png");
+    height:70px;
+    width:170px ;
+    background-size: cover;
+}
+
+/* About Us */
+.aboutus {
+    height: 450px;
+    background-size: cover;
+    background-image: url("https://images.template.net/94766/pastel-pink-background-yw0ub.jpg");
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para h1 {
+    color: #a9442b;
+    text-shadow: -1px 1px 0 black;
+    font-family:'Times New Roman', Times, serif;
+}
+.lorem {
+    display:flex;
+    flex-direction: row;
+}
+.lorem p{
+    margin-top: 30px;
+    width:600px;
+    text-align: justify;
+    display: inline-block;
+    font-style: italic ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.abimg {
+    background-image: url("https://ecommercephotographyindia.com/assets/img/gallery/cosmetics-products-photography1.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+/* highlights */
+.highlight {
+    height:200px;
+    margin-top: -70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1 {
+    height:150px;
+    width:150px;
+    background-size: cover;
+   
+}
+
+/* page 4 */
+.contactus {
+    height : 650px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/021/739/527/non_2x/fluid-waves-sky-blue-background-banner-free-vector.jpg");
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading h1 {
+    color:rgb(19, 71, 57);
+    text-shadow: -1px 1px 0 black;
+    text-decoration: underline ;
+
+}
+
+.type {
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    margin-top:100px;
+}
+
+.box2{
+    height:300px;
+    width :40;
+    text-align: center;
+    font-size: 20px;
+    margin:60px;
+}
+
+.box2 i {
+    font-size: 30px;
+}
+
+.box2 h5{
+    font-family: 'Times New Roman', Times, serif;
+    color: #141313;
+    font-size: 20px;
+}
+
+.box2 p {
+    padding-top:20px;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* help */
+.help {
+    height:280px;
+    background-image:url("https://media.istockphoto.com/id/1557266511/vector/wavy-abstract-background-material-inspired-by-web-and-internet-technology_purple.jpg?s=612x612&w=0&k=20&c=vezu8GQLfe_cCTsf6mqgs2KLWFgG0CKuBH67psOqVEg=") ;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.help input{
+    width:400px;
+    height:40px;
+    margin-top: 10px;
+}
+
+.help h1 {
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.find {
+    color: #fffdfe;
+    background-color: #0b0647;
+    height:40px;
+    width:80px;
+    font-size: 15px;
+    
+}
+
+.searchip {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:300px;
+    flex-wrap: wrap;
+}
+.searchbox{
+    border:2px solid purple;
+    height:100px;
+    width:30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.searchbox i{
+    font-size: 30px;
+}
+
+.searchbox h5{
+    font-size: 20px;
+    color: #830046;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}

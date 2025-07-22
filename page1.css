@@ -1,0 +1,84 @@
+* {
+    font-family: arial;
+    margin: 0;
+    border :border-box;
+
+}
+
+.logo {
+    height: 80px;
+    width: 200px;
+    background-size:cover ;
+    padding-top: 0;
+    background-image: url('logo1.png');
+   
+}
+.home{
+    height: 300px;
+    width:500px;
+    background-image: url("https://media.istockphoto.com/id/1397771294/vector/abstract-geometric-background-polygonal-mosaic-with-pink-gradient.jpg?s=612x612&w=0&k=20&c=WbrtBP4fCSz1Gh6xz6RdlhHF96aCZkEWP1FTpgXZxDM=");
+    color:rgb(2, 2, 2);
+    display:flex;
+    text-align: center;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: monospace;
+    margin-left: 400px;
+    margin-top: 100px;
+    
+
+   
+    
+}
+
+.page{
+    background-image: url("https://img.freepik.com/premium-photo/beautiful-hd-wallpaper-hyper-realistic-colorful-image_1077802-353381.jpg") ;
+    background-size: cover;
+    height: 700px;
+   
+
+}
+
+.login{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/176/927/small/blue-and-white-abstract-background.jpg");
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    display:inline-block;
+    position:absolute;
+    margin-top: 70px;
+    height: 200px;
+    width:450px;
+    align-items: center;
+    font-weight: 30px;
+    border-radius: 25px;
+    
+}
+
+.user {
+    position: relative;
+    justify-content: flex;
+    align-items: flex-start;
+    
+}
+.user i {
+    font-size: 20px;
+    text-align: left;
+    
+}
+input{
+    width:400px;
+    height:30px;
+}
+.l {
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: rgb(255, 186, 253);
+    width: 150px;
+    margin-top: 20px;
+    color: black;
+    
+
+}
+
